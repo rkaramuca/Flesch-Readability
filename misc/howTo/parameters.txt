@@ -1,0 +1,35 @@
+- count all words
+	- RULES:
+		- no isolated nunmbers e.g. "12".
+
+- count syllables in each word in the list. 
+	- RULES:
+		- vowels = 'a' 'e' 'i' 'o' 'u' 'y'
+		- vowel pairs = 1 syllable
+		- all words have at least one syllable
+		- e at the end of a sentence is NOT a syllable
+		- gapped vowels = 1 syllable each
+
+- count the sentences.
+	- RULES:
+		- sentences are ended by '.' ':' ';' '?' '!'
+
+- compute the index.
+	- Flesch:
+		- FORMULA:
+			- alpha = Number of Syllables / Number of Words
+			- beta = Number of Words / Number of Sentences
+			- Index = 206.835 - alpha(84.6) - beta(1.015) rounded to nearest int 
+	- Flesh-Kincaid:
+		- FORMULA:
+			- alpha = Number of Syllables / Number of Words
+			- beta = Number of Words / Number of Sentences
+			- Grade = alpha(11.8) + beta(0.39) - 15.59 rounded to 1 decimal point
+	- Dale-Chall:
+		- have to pipe list of 
+		- FORMULA:
+			- alpha = Number of Difficult Words / Total Number of Words
+			- beta = Number of Words / Number of Sentences
+			- % Difficult Words = (alpha * 100) --> percentage of difficult words:
+				- if percentage > 5%, add 3.6365 to the score
+			- Score = 0.1579 + beta(0.0496) ^^^ rounded to one decimal point

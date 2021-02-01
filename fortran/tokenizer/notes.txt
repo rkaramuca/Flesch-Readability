@@ -1,0 +1,3 @@
+Sub-routines: pass by reference by default
+Modules: you can allocate memory into a 'common space' to be accessed by multiple functions
+Functions: just like c/java

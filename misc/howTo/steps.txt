@@ -1,0 +1,18 @@
+1. Hello world
+	a. how to print to console
+	b. how to compile
+2. How to represent numeric data; simple math
+3. How to store and represent characters and strings
+4. How to use control structures (if/else); relational and logic operators (==, <, >) (and/or/not)
+5. Learn looping structures 
+6. How to build lists/arrays
+7. How to build classes (if available) and functions/subroutines
+8. Screen i/o with formatting
+9. File i/o
+
+EXTRAS
+1. user-defined data types
+2. oop
+3. recursion
+4. automatic parallelism
+

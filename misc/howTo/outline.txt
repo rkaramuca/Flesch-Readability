@@ -1,0 +1,21 @@
+Functions:
+	1. Read in file from cmd and put all words into string vector or giant string
+		- int main(int argc, char** argv)
+			- infile.open(argv[1]);
+			- string file = "";
+			- string line;
+			- while(getline(infile, line))
+			- 	file = file + line;
+			- infile.close();	
+	2. Count all syllables/words
+		- vowels array ['a', 'e', 'i', 'o', 'u', 'y']
+		- if( currLetter == vowel && nextLetter == vowel )
+		- 	syllables ++
+		- if( i + 1 == ' ' )
+		-       words ++
+	3. Count all the sentences
+		- endline array ['.', ':', ';', '?', '!']
+		- if ( file[i] == endline )
+		- 	sentences ++
+	4. TBC
+		
