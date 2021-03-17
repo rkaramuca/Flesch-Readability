@@ -1,6 +1,6 @@
 # Flesch, Flesch-Kincaid, and Dale-Chall Reading Index of the Bible
 
-Program to obtain the Flesch, Flesch-Kincaid, and Dale-Chall Reading Index scores for different versions of the Bible.
+Program to obtain the Flesch, Flesch-Kincaid, and Dale-Chall Reading Index scores for different versions of the Bible (and any other text).
 
 # How to execute:
 * C++:
